@@ -42,7 +42,7 @@ html{
 #home{
     display: flex;
     flex-direction: column;
-    background: url
+    background: url('img10.jpg') no-repeat center center/cover;
     height: 840px;
     justify-content: center;
     align-items: center;
