@@ -104,10 +104,11 @@ html{
     margin-right: 450px;
 }
 #pic img{
+    display: flex;
     width: 555px;
     height: 400px;
     float: left;
-    border-radius: 1000px;
+    border-radius: 50px;
 }
 #intro{
     display: flex;
@@ -191,6 +192,13 @@ html{
     background-color: white;
     padding: 10px;
 }
+.link{
+    text-decoration: none;
+    color: black;
+}
+.underline{
+    text-decoration: underline;
+}
 
 /* Contact Section */
 #contact{
@@ -198,7 +206,7 @@ html{
     flex-direction: column;
     box-sizing: border-box;
     background-color: #29465B;
-    color: BLACK;
+    color: black;
     padding: 20px;
 }
 .form{
